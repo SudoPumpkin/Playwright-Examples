@@ -56,7 +56,7 @@ import { test, expect } from '@playwright/test';
     // what job is being applied for
     await page.type('(//input[@type="text"])[6]', 'Web3 Quality Assurance Engineer');
     // Why Decent
-    await page.type('(//textarea[@aria-label="Your answer"])[2]', 'The ability to provide an impacted of quality and usability on innovative emerging technology.');
+    await page.type('(//textarea[@aria-label="Your answer"])[2]', 'The ability to provide an impact of quality and usability on innovative emerging technology.');
     // Web3 experience
     await page.type('(//textarea[@aria-label="Your answer"])[3]', 'Tezos and NFT collecting/selling.');
     // Future goals
