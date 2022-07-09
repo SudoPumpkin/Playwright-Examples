@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { test, expect } from '@playwright/test';
 
-
   test('Filter Search Results and Apply', async ({ page }) => {
     const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     await page.goto('https://web3.career/');
@@ -98,26 +97,4 @@ import { test, expect } from '@playwright/test';
       fullPage: true,
     });
 
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-    })
+    });
