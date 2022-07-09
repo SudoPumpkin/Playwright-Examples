@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable linebreak-style */
 import { test, expect } from '@playwright/test';
 
 
